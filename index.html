@@ -33,7 +33,7 @@
 
           <ul class="navi-list list">
             <li class="navi-intem">
-              <a class="navi-link link" href="#studio">Студия</a>
+              <a class="navi-link link current" href="./index.html">Студия</a>
             </li>
             <li class="navi-intem">
               <a class="navi-link link" href="./portfolio.html">Портфолио</a>
@@ -74,7 +74,7 @@
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button class="hero-btn" type="button">Заказать услугу</button>
+          <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -357,22 +357,22 @@
           <li class="customers-item">
             <a href="" class="customers-list-link">
               <svg class="customers-icone">
-              <use href="./images/sprite.svg#icon-logo-2"></use>
-            </svg>
+                <use href="./images/sprite.svg#icon-logo-2"></use>
+              </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-list-link">
               <svg class="customers-icone">
-              <use href="./images/sprite.svg#icon-logo-3"></use>
-            </svg>
+                <use href="./images/sprite.svg#icon-logo-3"></use>
+              </svg>
             </a>
           </li>
           <li class="customers-item">
             <a href="" class="customers-list-link">
               <svg class="customers-icone">
-              <use href="./images/sprite.svg#icon-logo-4"></use>
-            </svg>
+                <use href="./images/sprite.svg#icon-logo-4"></use>
+              </svg>
             </a>
           </li>
           <li class="customers-item">
@@ -454,5 +454,16 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="18" height="18">
+            <use href="./images/sprite.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
