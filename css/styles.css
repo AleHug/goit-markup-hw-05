@@ -130,7 +130,7 @@ body {
 }
 
 .navi-link {
-  padding: 32px 0; 
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -145,7 +145,7 @@ body {
 }
 
 .current::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   bottom: 0px;
@@ -154,7 +154,6 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-second-color);
-  
 }
 
 .heder-mail,
@@ -339,6 +338,29 @@ body {
   flex-basis: calc((100% - 90px) / 3);
 }
 
+.we-doing-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.we-doing-list-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 27px 82px;
+  font-family: var(--accent-first-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-first-color);
+  background: rgba(47, 48, 58, 0.8);
+  overflow: auto;
+}
 /*--------------- /What are we doing ---------------*/
 
 /*--------------- Our team ---------------*/
@@ -692,7 +714,6 @@ body {
   height: 100%;
   padding: 63px 24px;
   font-family: var(--accent-first-font-family);
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
